@@ -18,3 +18,5 @@ During the on-site interview, we will change the project requirements and work t
 * Just output the date/from/subject values (e.g. ```'From: foo@bar.com'``` -> ```'foo@bar.com'```)
 * Don’t worry about parsing or manipulating the date field, just dump what’s there
 * Plain text output is fine
+
+## How run it
