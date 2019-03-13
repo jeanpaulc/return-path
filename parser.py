@@ -6,12 +6,14 @@ file_set = glob.glob('./smallset/*.msg')
 
 # iterate through each file in the list
 for file_path in file_set:
-    # print(file_path)
     # open for reading
     with open(file_path, 'r') as rf:
+        # open for writing (append mode)
         with open('output.txt', 'a') as af:
+            # include file name
             af.write('\n' + rf.name + '\n')
 
+            #iterate through each line
             for line in rf:
                 # read each line and use regex to match 'Sent: ' dates
                 date_pattern = re.compile(r'^Date:\s*(\D{3})?,?\s*(\d{1,2})\s*(\D{3})\s*(\d{4}).*')
