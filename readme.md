@@ -31,3 +31,6 @@ Delete the output.txt file (if it already exists)
 Run the parser script
 
 ```$ python3 parser.py```
+
+### TODO
+Subject headers do not output in their entirety; see issue [#1](../../../../jeanpaulc/return-path/issues/1)

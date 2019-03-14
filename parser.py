@@ -11,7 +11,7 @@ def date_search(string):
     return date_regex.search(string)
 
 def sender_search(string):
-    sender_regex = re.compile(r'From:\s*')
+    sender_regex = re.compile(r'^From:\s*')
     return sender_regex.match(string)
 
 def email_search(string):
