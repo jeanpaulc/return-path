@@ -1,4 +1,4 @@
-# InternSWQParser.md
+# Email Header Parser
 
 ## Description
 
@@ -31,3 +31,5 @@ Delete the output.txt file (if it already exists)
 Run the parser script
 
 ```$ python3 headerparser.py```
+
+**NOTE:** ```headerparser.py``` is the newer script that properly parses the email headers, using the Email std lib
