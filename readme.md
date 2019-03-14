@@ -20,3 +20,14 @@ During the on-site interview, we will change the project requirements and work t
 * Plain text output is fine
 
 ## How run it
+Create a new python virtual environment (Requires Python 3, version 3.7.2 or higher)
+
+```$ python3 -m venv return-path && cd return-path```
+
+Delete the output.txt file (if it already exists)
+
+```$ rm output.txt```
+
+Run the parser script
+
+```$ python3 parser.py```
