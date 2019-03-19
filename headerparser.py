@@ -13,7 +13,7 @@ def file_set():
     return glob.glob('./smallset/*.msg')
 
 def email_search(string):
-    email_regex = re.compile(r'<?([\w.-]+@[\w.-]+[^>\s])')
+    email_regex = re.compile(r'<?([\w.+-]+@[\w-]+\.[\w.-]+[^>\s])')
     return re.search(email_regex, string).group(1)
 
 def main():
